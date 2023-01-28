@@ -21,7 +21,7 @@ int main()
 {
     std::cout << "Sumando arreglos en paralelo\n";
 
-    float a[N], b[N], c[N], c2[N];
+    float a[N], b[N], c[N];
     int i;
 
     for ( i = 0; i < N; i++)
