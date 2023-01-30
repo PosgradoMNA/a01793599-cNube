@@ -1,0 +1,62 @@
+Sumando arreglos en paralelo con 5 hilos y 500 pedazos
+
+Thread number is: 0 where i= 0
+Thread number is: 4 where i= 2000
+Thread number is: 1 where i= 500
+Thread number is: 3 where i= 1500
+Thread number is: 3 where i= 4000
+Thread number is: 2 where i= 1000
+Thread number is: 2 where i= 3500
+Thread number is: 1 where i= 3000
+Thread number is: 1 where i= 5500
+Thread number is: 1 where i= 8000
+Thread number is: 1 where i= 10500
+Thread number is: 1 where i= 13000
+Thread number is: 0 where i= 2500
+Thread number is: 0 where i= 5000
+Thread number is: 0 where i= 7500
+Thread number is: 2 where i= 6000
+Thread number is: 2 where i= 8500
+Thread number is: 3 where i= 6500
+Thread number is: 4 where i= 4500
+Thread number is: 4 where i= 7000
+Thread number is: 4 where i= 9500
+Thread number is: 2 where i= 11000
+Thread number is: 3 where i= 9000
+Thread number is: 0 where i= 10000
+Thread number is: 1 where i= 15500
+Thread number is: 1 where i= 18000
+Thread number is: 2 where i= 13500
+Thread number is: 3 where i= 11500
+Thread number is: 0 where i= 12500
+Thread number is: 4 where i= 12000
+Thread number is: 2 where i= 16000
+Thread number is: 2 where i= 18500
+Thread number is: 0 where i= 15000
+Thread number is: 4 where i= 14500
+Thread number is: 4 where i= 17000
+Thread number is: 0 where i= 17500
+Thread number is: 3 where i= 14000
+Thread number is: 3 where i= 16500
+Thread number is: 4 where i= 19500
+Thread number is: 3 where i= 19000
+
+
+Elapsed milliseconds: 10
+
+
+1. Imprimiendo los valores (a + b = c) en i=4885     (48850 + 24480) = 73330
+2. Imprimiendo los valores (a + b = c) en i=1670     (16700 + 8405) = 25105
+3. Imprimiendo los valores (a + b = c) en i=4840     (48400 + 24255) = 72655
+4. Imprimiendo los valores (a + b = c) en i=18866     (188660 + 94385) = 283045
+5. Imprimiendo los valores (a + b = c) en i=8985     (89850 + 44980) = 134830
+6. Imprimiendo los valores (a + b = c) en i=10468     (104680 + 52395) = 157075
+7. Imprimiendo los valores (a + b = c) en i=15602     (156020 + 78065) = 234085
+8. Imprimiendo los valores (a + b = c) en i=15914     (159140 + 79625) = 238765
+9. Imprimiendo los valores (a + b = c) en i=14670     (146700 + 73405) = 220105
+10. Imprimiendo los valores (a + b = c) en i=6283     (62830 + 31470) = 94300
+11. Imprimiendo los valores (a + b = c) en i=8842     (88420 + 44265) = 132685
+12. Imprimiendo los valores (a + b = c) en i=4380     (43800 + 21955) = 65755
+13. Imprimiendo los valores (a + b = c) en i=2117     (21170 + 10640) = 31810
+14. Imprimiendo los valores (a + b = c) en i=11481     (114810 + 57460) = 172270
+15. Imprimiendo los valores (a + b = c) en i=10245     (102450 + 51280) = 153730

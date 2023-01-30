@@ -1,0 +1,102 @@
+Sumando arreglos en paralelo con 12 hilos y 250 pedazos
+
+Thread number is: 0 where i= 0
+Thread number is: 4 where i= 1000
+Thread number is: 4 where i= 4000
+Thread number is: 4 where i= 7000
+Thread number is: 4 where i= 10000
+Thread number is: 4 where i= 13000
+Thread number is: 4 where i= 16000
+Thread number is: 4 where i= 19000
+Thread number is: 1 where i= 250
+Thread number is: 1 where i= 3250
+Thread number is: 5 where i= 1250
+Thread number is: 5 where i= 4250
+Thread number is: 0 where i= 3000
+Thread number is: 5 where i= 7250
+Thread number is: 5 where i= 10250
+Thread number is: 5 where i= 13250
+Thread number is: 5 where i= 16250
+Thread number is: 8 where i= 2000
+Thread number is: 11 where i= 2750
+Thread number is: 11 where i= 5750
+Thread number is: 11 where i= 8750
+Thread number is: 11 where i= 11750
+Thread number is: 1 where i= 6250
+Thread number is: 0 where i= 6000
+Thread number is: 0 where i= 9000
+Thread number is: 0 where i= 12000
+Thread number is: 0 where i= 15000
+Thread number is: 0 where i= 18000
+Thread number is: 5 where i= 19250
+Thread number is: 8 where i= 5000
+Thread number is: 9 where i= 2250
+Thread number is: 9 where i= 5250
+Thread number is: 9 where i= 8250
+Thread number is: 1 where i= 9250
+Thread number is: 2 where i= 500
+Thread number is: 2 where i= 3500
+Thread number is: 2 where i= 6500
+Thread number is: 6 where i= 1500
+Thread number is: 6 where i= 4500
+Thread number is: 10 where i= 2500
+Thread number is: 10 where i= 5500
+Thread number is: 10 where i= 8500
+Thread number is: 10 where i= 11500
+Thread number is: 10 where i= 14500
+Thread number is: 10 where i= 17500
+Thread number is: 2 where i= 9500
+Thread number is: 2 where i= 12500
+Thread number is: 6 where i= 7500
+Thread number is: 6 where i= 10500
+Thread number is: 6 where i= 13500
+Thread number is: 1 where i= 12250
+Thread number is: 3 where i= 750
+Thread number is: 7 where i= 1750
+Thread number is: 7 where i= 4750
+Thread number is: 2 where i= 15500
+Thread number is: 11 where i= 14750
+Thread number is: 9 where i= 11250
+Thread number is: 6 where i= 16500
+Thread number is: 6 where i= 19500
+Thread number is: 3 where i= 3750
+Thread number is: 8 where i= 8000
+Thread number is: 8 where i= 11000
+Thread number is: 8 where i= 14000
+Thread number is: 8 where i= 17000
+Thread number is: 9 where i= 14250
+Thread number is: 1 where i= 15250
+Thread number is: 1 where i= 18250
+Thread number is: 7 where i= 7750
+Thread number is: 7 where i= 10750
+Thread number is: 7 where i= 13750
+Thread number is: 9 where i= 17250
+Thread number is: 3 where i= 6750
+Thread number is: 3 where i= 9750
+Thread number is: 11 where i= 17750
+Thread number is: 7 where i= 16750
+Thread number is: 2 where i= 18500
+Thread number is: 3 where i= 12750
+Thread number is: 7 where i= 19750
+Thread number is: 3 where i= 15750
+Thread number is: 3 where i= 18750
+
+
+Elapsed milliseconds: 27
+
+
+1. Imprimiendo los valores (a + b = c) en i=4953     (49530 + 24820) = 74350
+2. Imprimiendo los valores (a + b = c) en i=10779     (107790 + 53950) = 161740
+3. Imprimiendo los valores (a + b = c) en i=6771     (67710 + 33910) = 101620
+4. Imprimiendo los valores (a + b = c) en i=12675     (126750 + 63430) = 190180
+5. Imprimiendo los valores (a + b = c) en i=8983     (89830 + 44970) = 134800
+6. Imprimiendo los valores (a + b = c) en i=7393     (73930 + 37020) = 110950
+7. Imprimiendo los valores (a + b = c) en i=15427     (154270 + 77190) = 231460
+8. Imprimiendo los valores (a + b = c) en i=19977     (199770 + 99940) = 299710
+9. Imprimiendo los valores (a + b = c) en i=965     (9650 + 4880) = 14530
+10. Imprimiendo los valores (a + b = c) en i=8245     (82450 + 41280) = 123730
+11. Imprimiendo los valores (a + b = c) en i=5736     (57360 + 28735) = 86095
+12. Imprimiendo los valores (a + b = c) en i=5305     (53050 + 26580) = 79630
+13. Imprimiendo los valores (a + b = c) en i=8281     (82810 + 41460) = 124270
+14. Imprimiendo los valores (a + b = c) en i=11274     (112740 + 56425) = 169165
+15. Imprimiendo los valores (a + b = c) en i=17528     (175280 + 87695) = 262975

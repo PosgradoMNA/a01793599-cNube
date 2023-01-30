@@ -5,12 +5,14 @@
 #include <omp.h>
 
 #include <chrono>
+#include <cstdlib>
 
-#define N 50000
-#define chunk 150
+
+#define N 20000
+#define chunk 500
 #define mostrar 15
 
-void imprimeArreglo(float* d);
+void imprimeArreglos(float* a, float* b, float* c );
 
 //Declaring using for timestamps
 using std::chrono::system_clock;
@@ -19,7 +21,6 @@ using std::chrono::milliseconds;
 
 int main()
 {
-    std::cout << "Sumando arreglos en paralelo\n";
 
     float a[N], b[N], c[N];
     int i;
@@ -27,12 +28,13 @@ int main()
     for ( i = 0; i < N; i++)
     {
         a[i] = i * 10;
-        b[i] = (i + 15) * 10;
+        b[i] = (i + 11) * 5;
     }
     
     int pedazos = chunk;
-    int num_threadsForMethod = 5;
+    int num_threadsForMethod = 20;
 
+    std::cout << "Sumando arreglos en paralelo con " << num_threadsForMethod << " hilos y "<< chunk <<" pedazos\n" << std::endl;
 
     //Setting timer for getting time elapsed result
     auto initTime2 = duration_cast<milliseconds>(system_clock::now().time_since_epoch()).count();
@@ -45,7 +47,7 @@ int main()
 
     for (i = 0; i < N; i++) {
         c[i] = a[i] + b[i];
-        if (i % (chunk*4) == 0) { //Printing every Mod==0 in 4 times the chunk
+        if (false && i % (chunk * 1) == 0 && i < 20000) { //Printing every Mod==0 in 1 times the chunk
             int tid = omp_get_thread_num();
             printf("Thread number is: %d where i= %d\n", tid, i );
         }
@@ -56,19 +58,18 @@ int main()
     printf("\n\nElapsed milliseconds: %d\n\n\n",+ (int)(endTime2 - initTime2));
 
 
-    std::cout << "Imprimiendo los primeros " << mostrar << " valores del arreglo a: " << std::endl;
-    imprimeArreglo(a);
-    std::cout << "Imprimiendo los primeros " << mostrar << " valores del arreglo b: " << std::endl;
-    imprimeArreglo(b);
-    std::cout << "Imprimiendo los primeros " << mostrar << " valores del arreglo c: " << std::endl;
-    imprimeArreglo(c);
+    imprimeArreglos(a, b, c);
+
+
 }
 
-void imprimeArreglo(float* d) 
+void imprimeArreglos(float* a, float* b, float* c )
 {
+    int random;
+    srand((unsigned)time(NULL));
     for (int x = 0; x < mostrar; x++) 
     {
-        std::cout << d[x] << " - ";
+        random = rand() % N;
+        std::cout << (x+1) << ". Imprimiendo los valores (a + b = c) en i=" << random << "     ("<<a[random]<<" + " << b[random] << ") = " << c[random] << std::endl;
     }
-    std::cout << std::endl;
 }
